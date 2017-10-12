@@ -21,6 +21,10 @@ package com.yuan.leetcode;
  *        ↑   ↑  <br>
  * <p>
  * The above arrows point to positions where the corresponding bits are different.
+ *
+ *
+ * Best Answer:
+ * return Integer.bitCount(x ^ y);
  */
 public class Question461 {
     public int hammingDistance(int x, int y) {
