@@ -1,4 +1,5 @@
 import com.yuan.leetcode.Question461;
+import com.yuan.leetcode.Question561;
 import com.yuan.leetcode.Question657;
 import org.junit.Assert;
 import org.junit.Test;
@@ -16,5 +17,12 @@ public class QuestionTest {
     public void quest657() {
         String steps = "UURRDDLL";
         Assert.assertTrue(Question657.judgeCircle(steps));
+    }
+
+    @Test
+    public void quest561() {
+        int arr[] = {1, 4, 3, 2, 8, 7};
+        int sum = Question561.arrayPairSum(arr);
+        System.out.println(sum);
     }
 }
