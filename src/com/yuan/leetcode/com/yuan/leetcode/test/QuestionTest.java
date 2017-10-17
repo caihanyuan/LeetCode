@@ -25,16 +25,23 @@ public class QuestionTest {
     }
 
     @Test
-    public void quest557(){
+    public void quest557() {
         String words = "H";
         words = Question557.reverseWords(words);
         System.out.println(words);
     }
 
     @Test
-    public void quest682(){
-        String[] ops = {"5","-2","4","C","D","9","+","+"};
+    public void quest682() {
+        String[] ops = {"5", "-2", "4", "C", "D", "9", "+", "+"};
         int sum = Question682.calPoints(ops);
         System.out.println(sum);
+    }
+
+    @Test
+    public void queset575() {
+        int[] candies = new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 8, 2, 3};
+        int kinds = Question575.distributeCandies(candies);
+        System.out.println(kinds);
     }
 }
