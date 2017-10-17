@@ -1,7 +1,4 @@
-import com.yuan.leetcode.Question461;
-import com.yuan.leetcode.Question557;
-import com.yuan.leetcode.Question561;
-import com.yuan.leetcode.Question657;
+import com.yuan.leetcode.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -32,5 +29,12 @@ public class QuestionTest {
         String words = "H";
         words = Question557.reverseWords(words);
         System.out.println(words);
+    }
+
+    @Test
+    public void quest682(){
+        String[] ops = {"5","-2","4","C","D","9","+","+"};
+        int sum = Question682.calPoints(ops);
+        System.out.println(sum);
     }
 }
