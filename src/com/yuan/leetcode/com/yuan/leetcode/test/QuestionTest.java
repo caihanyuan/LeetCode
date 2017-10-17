@@ -1,4 +1,5 @@
 import com.yuan.leetcode.Question461;
+import com.yuan.leetcode.Question557;
 import com.yuan.leetcode.Question561;
 import com.yuan.leetcode.Question657;
 import org.junit.Assert;
@@ -24,5 +25,12 @@ public class QuestionTest {
         int arr[] = {1, 4, 3, 2, 8, 7};
         int sum = Question561.arrayPairSum(arr);
         System.out.println(sum);
+    }
+
+    @Test
+    public void quest557(){
+        String words = "H";
+        words = Question557.reverseWords(words);
+        System.out.println(words);
     }
 }
