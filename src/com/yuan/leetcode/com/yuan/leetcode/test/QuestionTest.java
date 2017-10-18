@@ -2,6 +2,8 @@ import com.yuan.leetcode.*;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.List;
+
 public class QuestionTest {
 
     @Test
@@ -43,5 +45,13 @@ public class QuestionTest {
         int[] candies = new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 8, 2, 3};
         int kinds = Question575.distributeCandies(candies);
         System.out.println(kinds);
+    }
+
+    @Test
+    public void quest412() {
+        List<String> resultList = Question412.fizzBuzz(15);
+        for (String result : resultList) {
+            System.out.println(result);
+        }
     }
 }
