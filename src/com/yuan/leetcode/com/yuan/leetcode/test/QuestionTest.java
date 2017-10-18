@@ -54,4 +54,10 @@ public class QuestionTest {
             System.out.println(result);
         }
     }
+
+    @Test
+    public void quest566(){
+        int[][] datas = new int[][]{{1,2},{3,4},{5,6}};
+        Question566.matrixReshape(datas, 2,3);
+    }
 }
