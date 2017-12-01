@@ -58,7 +58,7 @@ public class QuestionTest {
     @Test
     public void quest566() {
         int[][] datas = new int[][]{{1, 2}, {3, 4}, {5, 6}};
-        Question566.matrixReshape(datas, 2, 3);
+        Question566.matrixReshape(datas, 2, 1);
     }
 
     @Test
@@ -68,4 +68,11 @@ public class QuestionTest {
         System.out.println(lines);
     }
 
+
+    @Test
+    public void queset693() {
+        Question693 question693 = new Question693();
+        boolean really = question693.hasAlternatingBits(10);
+        Assert.assertTrue(really);
+    }
 }
